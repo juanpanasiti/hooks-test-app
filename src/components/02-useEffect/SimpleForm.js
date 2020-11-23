@@ -25,6 +25,7 @@ export const SimpleForm = () => {
       [target.name]: target.value,
     });
   };
+  
   return (
     <>
       <h1>useEffect</h1>
