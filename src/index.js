@@ -8,10 +8,11 @@ import ReactDOM from 'react-dom';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { HooksApp } from './HooksApp';
 import './components/02-useEffect/effects.css'
+import { MemoHook } from './components/06-memos/MemoHook';
 // import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
-import { Memorize } from './components/06-memos/Memorize';
+// import { Memorize } from './components/06-memos/Memorize';
 ReactDOM.render(
-  <Memorize />,
+  <MemoHook />,
   document.getElementById('root')
 );
