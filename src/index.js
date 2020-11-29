@@ -8,8 +8,9 @@ import ReactDOM from 'react-dom';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { HooksApp } from './HooksApp';
 import './components/02-useEffect/effects.css'
-import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+// import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+import { Layout } from './components/05-useLayoutEffect/Layout';
 ReactDOM.render(
-  <RealExampleRef />,
+  <Layout />,
   document.getElementById('root')
 );
